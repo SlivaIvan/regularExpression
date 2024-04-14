@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/4ggrw7xr2952rq6d?svg=true)](https://ci.appveyor.com/project/SlivaIvan/regularexpression)
