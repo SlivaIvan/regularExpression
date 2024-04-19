@@ -1,5 +1,10 @@
-import Validator from './app';
+import Team from './team';
+import Character from './character';
 
-const userIvan = new Validator('ivan-48_sliva');
+const archerAlaster = new Character('Alaster', 'archer');
+const archerAlfi = new Character('Alfi', 'archer');
 
-userIvan('ivan-234_sliva');
+const teamIvan = new Team();
+
+teamIvan.add(archerAlaster);
+teamIvan.add(archerAlfi);
